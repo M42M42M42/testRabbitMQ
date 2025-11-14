@@ -69,8 +69,15 @@ factory.setPassword("guest"); // 默认密码
 
 （to be done.....）
 
-#### 代码重构优化
+### 代码重构优化
 
 （消费者应该保持连接，同时捕获异常）
 
 （to br done....）
+
+### 代码中导入依赖的问题
+
+（RabbitMQ引入了log框架）
+
+（to be done....）
+

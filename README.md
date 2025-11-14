@@ -37,3 +37,10 @@ docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 1. 先启动 **消费者** 脚本（保持运行，等待消息）
 2. 运行 **生产者** 脚本，发送消息
 3. 消费者控制台会输出 `收到消息: Hello, RabbitMQ!`，同时可在 RabbitMQ 管理界面的 `Queues` → `m42_test_queue` 中看到消息已被消费（`Ready` 数量为 0）。
+
+
+
+### 踩坑日志
+
+[DEBUG_LOG](./DEBUG_LOG.md)
+
